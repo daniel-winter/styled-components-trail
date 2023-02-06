@@ -1,0 +1,41 @@
+{
+  "name": "styled-components-trail",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/styled-components-trail.umd.cjs",
+  "module": "./dist/styled-components-trail.js",
+  "exports": {
+    ".": {
+      "import": "./dist/styled-components-trail.js",
+      "require": "./dist/styled-components-trail.umd.cjs"
+    }
+  },
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  },
+  "peerDependencies": {
+    "styled-components": "5.0.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
